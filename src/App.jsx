@@ -20,19 +20,6 @@ export default function App(){
     })
     return unsub
   },[])
-import Signup from "./components/Signup";
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Chat App</h1>
-      <Signup />
-    </div>
-  );
-}
-
-export default App;
-
   return (
     <div className="app">
       <header className="topbar">
